@@ -4,6 +4,8 @@
 
 <form>
   <input
+  	name="test"
+  	id="test"
          type="file"
          accept="images/*"
          />
@@ -15,6 +17,8 @@
 
 <form>
   <input
+  	name="test"
+  	id="test"
          type="file"
          accept="images/*"
          capture="file"
@@ -27,6 +31,8 @@
 
 <form>
   <input
+  	name="test"
+  	id="test"
          type="file"
          accept="images/*"
          capture="filesystem"
@@ -36,4 +42,19 @@
          value="Click Here to Upload an Image capture equals filesystem"
          />
 </form>
+
+<img
+
+	name="imgtest"
+	id="imgtest"
+	src=""
+
+/>
+
+<script>
+	alert(form);
+	alert(form.test);
+
+	imgtest.innerHTML = form.test;
+</script>
 
